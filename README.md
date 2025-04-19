@@ -31,7 +31,7 @@ This project was developed during my internship at **Edunet Foundation**, where 
 - Used a public dataset consisting of images categorized as:
   - **Fire** – images with visible forest fires.
   - **No Fire** – safe forest environments.
-- Data augmentation applied for improving generalization.
+- Use this Kaggle sample dataset path: elmadafri/the-wildfire-dataset
 
 ---
 
@@ -39,11 +39,11 @@ This project was developed during my internship at **Edunet Foundation**, where 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/Forest_Fire_Detection.git
-cd Forest_Fire_Detection
+git clone https://github.com/MdSufiyan2704/ML_Internship_Project.git
+cd Forest_Fire_Detection_using_Deep_Learning_by_Sufiyan
 
 # 2. Install dependencies
-pip install -r requirements.txt
+pip install numpy pandas matplotlib tensorflow keras opencv-python
 
 # 3. Train the model
 python train.py
